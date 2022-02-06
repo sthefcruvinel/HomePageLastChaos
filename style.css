@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #00080C;
+}
+
+.menu-inicial{
+    background: #111111;
+    color: #FFFFFF;
+    height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.menu-inicial ul li{
+    margin-top: 8px;
+    float: right;
+    margin-right: 50px;
+}
+
+.menu-inicial ul li:hover{
+    cursor: pointer;
+}
+
+#logohome, #logoprofile, #logochat{
+    width: 12px;
+    height: 12px;
+    margin-left: 25px;
+}
+
+.menu-principal{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+main{
+    margin: 0 auto;
+    width: 1380px;
+    position: relative;
+    padding: 10px;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.nav ul li:hover 
+{
+    font-size: 110%;
+    cursor:pointer;
+    border-bottom: 1.5px solid #fbbc01;
+}
+
+.nav {
+    width: 60%;
+    float: left;
+    font-family: 'Metamorphous', cursive;
+    font-size: 17px;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+
+button.slick-prev{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 75px;
+    width: 150px;
+    top: 40%;
+    left: 20%;
+    background-color: transparent;
+    background-image: url('imagens/setasword\ -\ L.png');
+    position: absolute;
+    z-index: 9;
+}
+
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 75px;
+    width: 150px;
+    top: 40%;
+    right: 20%;
+    background-color: transparent;
+    background-image: url('imagens/setasword\ -\ R.png');
+    position: absolute;
+    z-index: 9;
+}
+
+button.slick-next, button.slick-prev:hover {
+    cursor: pointer;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 900px;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+li.slick-active button{
+    background: #ffffff;
+}
+
+
+
